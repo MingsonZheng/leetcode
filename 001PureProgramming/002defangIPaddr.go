@@ -6,21 +6,11 @@ import (
 )
 
 func main() {
+	fmt.Println(defangIPaddr("1.1.1.1"))
+	fmt.Println(defangIPaddr2("1.1.1.1"))
 	fmt.Println(defangIPaddr3("1.1.1.1"))
-}
-
-// 001复杂度分析
-
-// 1. 两数之和
-func twoSum(nums []int, target int) []int {
-	for i := 0; i < len(nums); i++ {
-		for j := i + 1; j < len(nums); j++ {
-			if nums[i]+nums[j] == target {
-				return []int{i, j}
-			}
-		}
-	}
-	return nil
+	fmt.Println(defangIPaddr4("1.1.1.1"))
+	fmt.Println(defangIPaddr666("1.1.1.1"))
 }
 
 // 1108. IP 地址无效化
