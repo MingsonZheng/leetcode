@@ -1,4 +1,4 @@
-# leetcode
+# 🧲leetcode
 
 - 001PureProgramming
 
