@@ -11,6 +11,8 @@ func main() {
 	fmt.Println(tictactoe(board3))
 	board4 := []string{"OX ", "OX ", "O  "}
 	fmt.Println(tictactoe(board4))
+	board5 := []string{"OX ", "OO ", "XXO"}
+	fmt.Println(tictactoe(board5))
 }
 
 // 面试题 16.04. 井字游戏
@@ -65,6 +67,8 @@ func tictactoe(board []string) string {
 				determined = false
 				break
 			}
+			i++
+			j++
 		}
 		if determined {
 			return string(boards[0][0])
