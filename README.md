@@ -1,6 +1,7 @@
 # 🧲leetcode
 
 - 001PureProgramming
+- 002FindRules
 
 ## 001PureProgramming
 
@@ -16,3 +17,15 @@
 - [26. 删除排序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
 - [剑指 Offer 67. 把字符串转换成整数](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
 
+## 002FindRules
+
+- [面试题 01.08. 零矩阵](https://leetcode.cn/problems/zero-matrix-lcci/)
+- [剑指 Offer 61. 扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
+- [面试题 16.11. 跳水板](https://leetcode.cn/problems/diving-board-lcci/)
+- [面试题 01.05. 一次编辑](https://leetcode.cn/problems/one-away-lcci/)
+- [面试题 16.15. 珠玑妙算](https://leetcode.cn/problems/master-mind-lcci/)
+- [面试题 16.04. 井字游戏](https://leetcode.cn/problems/tic-tac-toe-lcci/)
+- [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
+- [48. 旋转图像](https://leetcode.cn/problems/rotate-image/)
+- [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
+- [240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/)
