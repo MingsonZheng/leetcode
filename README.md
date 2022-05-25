@@ -2,6 +2,7 @@
 
 - 001PureProgramming
 - 002FindRules
+- 003ArraysAndLinkedLists
 
 ## 001PureProgramming
 
