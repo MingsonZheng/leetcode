@@ -1,8 +1,8 @@
 # 🧲leetcode
 
-- 001PureProgramming
-- 002FindRules
-- 003ArraysAndLinkedLists
+- [001PureProgramming](https://github.com/MingsonZheng/leetcode#001pureprogramming)
+- [002FindRules](https://github.com/MingsonZheng/leetcode#002findrules)
+- [003ArraysAndLinkedLists](https://github.com/MingsonZheng/leetcode#003arraysandlinkedlists)
 
 ## 001PureProgramming
 
