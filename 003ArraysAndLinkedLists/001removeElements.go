@@ -19,29 +19,6 @@ func main() {
 	fmt.Println()
 }
 
-// ListNode Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-// 在链表尾部插入元素
-func insertAtTail(value int, tail *ListNode) *ListNode {
-	newNode := &ListNode{value, nil}
-	tail.Next = newNode
-	tail = newNode
-	return tail
-}
-
-// 遍历
-func travel(head *ListNode) {
-	p := head
-	for p != nil {
-		fmt.Printf("%v，", p.Val)
-		p = p.Next
-	}
-}
-
 // 203. 移除链表元素
 // 遍历的结束条件：prev.Next == null
 // 指针的初始值：prev := head
@@ -51,7 +28,7 @@ func travel(head *ListNode) {
 // 特殊情况处理：头节点、尾节点、空链表
 // 引入虚拟节点：可以通过添加虚拟节点简化编程
 
-// 解法 3：改变链表的万能写法
+// 解法 3：改变链表的万能写法（返回一个新的链表）
 func removeElements3(head *ListNode, val int) *ListNode {
 	if head == nil {
 		return nil
