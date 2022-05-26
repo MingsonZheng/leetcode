@@ -7,21 +7,23 @@ func main() {
 	head := initial(array)
 	travel(head.Next)
 	fmt.Println()
-	res := middleNode(head.Next)
+	res := reverseList(head.Next)
 	travel(res)
 	fmt.Println()
 }
 
-// 876. 链表的中间结点
-func middleNode(head *ListNode) *ListNode {
-	slow := head
-	fast := head
-	for fast != nil && fast.Next != nil {
-		slow = slow.Next
-		fast = fast.Next.Next
-	}
-	return slow
-}
+//// 206. 反转链表
+//func reverseList(head *ListNode) *ListNode {
+//	var newHead *ListNode = nil
+//	p := head
+//	for p != nil {
+//		tmp := p.Next
+//		p.Next = newHead
+//		newHead = p
+//		p = tmp
+//	}
+//	return newHead
+//}
 
 //// ListNode Definition for singly-linked list.
 //type ListNode struct {

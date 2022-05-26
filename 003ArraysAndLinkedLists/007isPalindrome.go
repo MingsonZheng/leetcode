@@ -3,24 +3,52 @@ package main
 import "fmt"
 
 func main() {
-	array := []int{1, 2, 3, 4, 5}
+	array := []int{1, 2, 2, 1}
 	head := initial(array)
 	travel(head.Next)
 	fmt.Println()
-	res := middleNode(head.Next)
-	travel(res)
-	fmt.Println()
+	fmt.Println(isPalindrome(head.Next))
 }
 
-// 876. 链表的中间结点
-func middleNode(head *ListNode) *ListNode {
+// 234. 回文链表
+func isPalindrome(head *ListNode) bool {
+	if head == nil || head.Next == nil {
+		return true
+	}
+	midNode := findMidNode(head)
+	rightHalfHead := reverseList(midNode.Next)
+	p := head
+	q := rightHalfHead
+	for q != nil {
+		if p.Val != q.Val {
+			return false
+		}
+		p = p.Next
+		q = q.Next
+	}
+	return true
+}
+
+func findMidNode(head *ListNode) *ListNode {
 	slow := head
 	fast := head
-	for fast != nil && fast.Next != nil {
+	for fast.Next != nil && fast.Next.Next != nil {
 		slow = slow.Next
 		fast = fast.Next.Next
 	}
 	return slow
+}
+
+func reverseList(head *ListNode) *ListNode {
+	var newHead *ListNode = nil
+	p := head
+	for p != nil {
+		tmp := p.Next
+		p.Next = newHead
+		newHead = p
+		p = tmp
+	}
+	return newHead
 }
 
 //// ListNode Definition for singly-linked list.

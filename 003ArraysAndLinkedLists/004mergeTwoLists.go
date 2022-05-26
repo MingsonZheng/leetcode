@@ -3,24 +3,50 @@ package main
 import "fmt"
 
 func main() {
-	array := []int{1, 2, 3, 4, 5}
+	array := []int{1, 2, 4}
+	array2 := []int{1, 3, 4}
 	head := initial(array)
 	travel(head.Next)
 	fmt.Println()
-	res := middleNode(head.Next)
+	head2 := initial(array2)
+	travel(head2.Next)
+	fmt.Println()
+	res := mergeTwoLists(head.Next, head2.Next)
 	travel(res)
 	fmt.Println()
 }
 
-// 876. 链表的中间结点
-func middleNode(head *ListNode) *ListNode {
-	slow := head
-	fast := head
-	for fast != nil && fast.Next != nil {
-		slow = slow.Next
-		fast = fast.Next.Next
+// 剑指 Offer 25. 合并两个排序的链表
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+	if l1 == nil {
+		return l2
 	}
-	return slow
+	if l2 == nil {
+		return l1
+	}
+	p1 := l1
+	p2 := l2
+	head := new(ListNode) // 虚拟头节点
+	tail := head
+	for p1 != nil && p2 != nil {
+		if p1.Val <= p2.Val {
+			tail.Next = p1
+			tail = p1
+			p1 = p1.Next
+		} else {
+			tail.Next = p2
+			tail = p2
+			p2 = p2.Next
+		}
+	}
+	// 如果 p1 还没处理完，就把剩下的直接接到 tail 后面
+	if p1 != nil {
+		tail.Next = p1
+	}
+	if p2 != nil {
+		tail.Next = p2
+	}
+	return head.Next
 }
 
 //// ListNode Definition for singly-linked list.

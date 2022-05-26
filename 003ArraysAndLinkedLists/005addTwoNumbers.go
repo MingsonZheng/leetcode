@@ -3,24 +3,47 @@ package main
 import "fmt"
 
 func main() {
-	array := []int{1, 2, 3, 4, 5}
+	array := []int{2, 4, 3}
+	array2 := []int{5, 6, 4}
 	head := initial(array)
 	travel(head.Next)
 	fmt.Println()
-	res := middleNode(head.Next)
+	head2 := initial(array2)
+	travel(head2.Next)
+	fmt.Println()
+	res := addTwoNumbers(head.Next, head2.Next)
 	travel(res)
 	fmt.Println()
 }
 
-// 876. 链表的中间结点
-func middleNode(head *ListNode) *ListNode {
-	slow := head
-	fast := head
-	for fast != nil && fast.Next != nil {
-		slow = slow.Next
-		fast = fast.Next.Next
+// 2. 两数相加
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+	p1 := l1
+	p2 := l2
+	head := new(ListNode) // 虚拟头节点
+	tail := head
+	carry := 0
+	for p1 != nil || p2 != nil {
+		sum := 0
+		if p1 != nil {
+			sum += p1.Val
+			p1 = p1.Next
+		}
+		if p2 != nil {
+			sum += p2.Val
+			p2 = p2.Next
+		}
+		if carry != 0 {
+			sum += carry
+		}
+		tail.Next = &ListNode{Val: sum % 10}
+		carry = sum / 10
+		tail = tail.Next
 	}
-	return slow
+	if carry != 0 {
+		tail.Next = &ListNode{Val: carry}
+	}
+	return head.Next
 }
 
 //// ListNode Definition for singly-linked list.

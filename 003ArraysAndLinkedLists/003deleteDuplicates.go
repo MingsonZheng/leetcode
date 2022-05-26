@@ -3,24 +3,33 @@ package main
 import "fmt"
 
 func main() {
-	array := []int{1, 2, 3, 4, 5}
+	array := []int{1, 1, 2}
 	head := initial(array)
 	travel(head.Next)
 	fmt.Println()
-	res := middleNode(head.Next)
+	res := deleteDuplicates(head.Next)
 	travel(res)
 	fmt.Println()
 }
 
-// 876. 链表的中间结点
-func middleNode(head *ListNode) *ListNode {
-	slow := head
-	fast := head
-	for fast != nil && fast.Next != nil {
-		slow = slow.Next
-		fast = fast.Next.Next
+// 83. 删除排序链表中的重复元素
+func deleteDuplicates(head *ListNode) *ListNode {
+	if head == nil {
+		return head
 	}
-	return slow
+	newHead := &ListNode{Val: -111, Next: nil} // 虚拟头节点
+	tail := newHead
+	p := head
+	for p != nil {
+		tmp := p.Next
+		if p.Val != tail.Val {
+			tail.Next = p
+			tail = p
+			p.Next = nil
+		}
+		p = tmp
+	}
+	return newHead.Next
 }
 
 //// ListNode Definition for singly-linked list.
