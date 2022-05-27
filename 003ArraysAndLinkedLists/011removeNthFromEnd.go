@@ -7,32 +7,40 @@ func main() {
 	head := initial(array)
 	travel(head.Next)
 	fmt.Println()
-	res := getKthFromEnd(head.Next, 2)
+	res := removeNthFromEnd(head.Next, 2)
 	travel(res)
 }
 
-// 剑指 Offer 22. 链表中倒数第k个节点
-func getKthFromEnd(head *ListNode, k int) *ListNode {
+// 19. 删除链表的倒数第 N 个结点
+func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	// 遍历 1：fast 先到第 n 个节点
 	fast := head
 	count := 0
 	for fast != nil {
 		count++
-		if count == k {
+		if count == n {
 			break
 		}
 		fast = fast.Next
 	}
 	if fast == nil { // 链表节点不够 k
-		return nil
+		return head
 	}
 	// 遍历 2
 	slow := head
+	var pre *ListNode = nil
 	for fast.Next != nil {
+		pre = slow
 		slow = slow.Next
 		fast = fast.Next
 	}
-	return slow
+	// 删除倒数第 n 个节点
+	if pre == nil { // 头节点是倒数第 n 个节点
+		head = head.Next
+	} else {
+		pre.Next = slow.Next
+	}
+	return head
 }
 
 //// ListNode Definition for singly-linked list.
