@@ -7,8 +7,16 @@ func main() {
 	head := initial(array)
 	travel(head.Next)
 	fmt.Println()
-	array2 := []int{5, 6, 1, 8, 4, 5}
+	array2 := []int{5, 6, 1}
 	head2 := initial(array2)
+	//travel(head2.Next)
+	//fmt.Println()
+	p := head2
+	for p.Next != nil {
+		p = p.Next
+	}
+	tail2 := p
+	tail2.Next = head.Next.Next.Next // array2 的尾指针指向 array 的第三个节点
 	travel(head2.Next)
 	fmt.Println()
 	res := getIntersectionNode(head.Next, head2.Next)
@@ -45,7 +53,7 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 		}
 	}
 	// 让 pA 和 pB 同步前进
-	for pA != nil && pB != nil && pA.Val != pB.Val {
+	for pA != nil && pB != nil && pA != pB {
 		pA = pA.Next
 		pB = pB.Next
 	}
