@@ -1,4 +1,4 @@
-# 🧲leetcode
+# 🧲leetcode 基于 Go 的分类题解
 
 - [001PureProgramming](https://github.com/MingsonZheng/leetcode#001pureprogramming)
 - [002FindRules](https://github.com/MingsonZheng/leetcode#002findrules)
