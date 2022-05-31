@@ -61,37 +61,22 @@
 
 ## 004StacksAndQueues
 
-[剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
-
-[225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
-
-[面试题 03.05. 栈排序](https://leetcode.cn/problems/sort-of-stacks-lcci/)
-
-[155. 最小栈](https://leetcode.cn/problems/min-stack/)
-
-[面试题 03.01. 三合一](https://leetcode.cn/problems/three-in-one-lcci/)
-
-[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
-
-[面试题 16.26. 计算器](https://leetcode.cn/problems/calculator-lcci/)
-
-[772. 基本计算器 III](https://leetcode.cn/problems/basic-calculator-iii/)（比上一题多了括号）
-
-[1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
-
-[剑指 Offer 31. 栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
-
-[739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
-
-[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
-
-[84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
-
-[面试题 03.06. 动物收容所](https://leetcode.cn/problems/animal-shelter-lcci/)
-
-[剑指 Offer 59 - II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/)
-
-[剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
+- [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+- [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
+- [面试题 03.05. 栈排序](https://leetcode.cn/problems/sort-of-stacks-lcci/)
+- [155. 最小栈](https://leetcode.cn/problems/min-stack/)
+- [面试题 03.01. 三合一](https://leetcode.cn/problems/three-in-one-lcci/)
+- [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
+- [面试题 16.26. 计算器](https://leetcode.cn/problems/calculator-lcci/)
+- [772. 基本计算器 III](https://leetcode.cn/problems/basic-calculator-iii/)
+- [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
+- [剑指 Offer 31. 栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
+- [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
+- [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+- [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
+- [面试题 03.06. 动物收容所](https://leetcode.cn/problems/animal-shelter-lcci/)
+- [剑指 Offer 59 - II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/)
+- [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode)
 ---
