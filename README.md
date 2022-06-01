@@ -21,7 +21,7 @@
 - [26. 删除排序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
 - [剑指 Offer 67. 把字符串转换成整数](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
 
-#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode)
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
 
 ## 002FindRules
@@ -37,7 +37,7 @@
 - [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
 - [240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/)
 
-#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode)
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
 
 ## 003ArraysAndLinkedLists
@@ -56,7 +56,7 @@
 - [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
 - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
 
-#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode)
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
 
 ## 004StacksAndQueues
@@ -78,5 +78,5 @@
 - [剑指 Offer 59 - II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/)
 - [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
 
-#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode)
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
