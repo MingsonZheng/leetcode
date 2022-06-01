@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 面试题 16.26. 计算器
+
 func main() {
 	fmt.Println(calculate("3+2*2"))
 	fmt.Println(calculate(" 3/2 "))
