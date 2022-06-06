@@ -4,6 +4,7 @@
 - [002FindRules](https://github.com/MingsonZheng/leetcode#002findrules)
 - [003ArraysAndLinkedLists](https://github.com/MingsonZheng/leetcode#003arraysandlinkedlists)
 - [004StacksAndQueues](https://github.com/MingsonZheng/leetcode#004stacksandqueues)
+- [005RecursionAndPartition](https://github.com/MingsonZheng/leetcode#005RecursionAndPartition)
 
 ---
 
@@ -73,6 +74,20 @@
 - [剑指 Offer 31. 栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
 - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
 - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 005RecursionAndPartition
+
+- [剑指 Offer 10- I. 斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)
+- [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+- [面试题 08.01. 三步问题](https://leetcode.cn/problems/three-steps-problem-lcci/)
+- [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+- [剑指 Offer 24. 反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/)
+- [剑指 Offer 25. 合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)
+- [剑指 Offer 16. 数值的整数次方](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)
+- [面试题 08.05. 递归乘法](https://leetcode.cn/problems/recursive-mulitply-lcci/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
