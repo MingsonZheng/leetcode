@@ -6,6 +6,7 @@
 - [004StacksAndQueues](https://github.com/MingsonZheng/leetcode#004stacksandqueues)
 - [005RecursionAndPartition](https://github.com/MingsonZheng/leetcode#005RecursionAndPartition)
 - [006Sort](https://github.com/MingsonZheng/leetcode#006Sort)
+- [007BinarySearch](https://github.com/MingsonZheng/leetcode#007BinarySearch)
 
 ---
 
@@ -108,6 +109,25 @@
 - [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
 - [面试题 17.14. 最小K个数](https://leetcode.cn/problems/smallest-k-lcci/)
 - [剑指 Offer 51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 007BinarySearch
+
+- [704. 二分查找](https://leetcode.cn/problems/binary-search/)
+- [374. 猜数字大小](https://leetcode.cn/problems/guess-number-higher-or-lower/)
+- [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/)
+- [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/)
+- [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [面试题 10.05. 稀疏数组搜索](https://leetcode.cn/problems/sparse-array-search-lcci/)
+- [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/)
+- [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/)
+- [852. 山脉数组的峰顶索引](https://leetcode.cn/problems/peak-index-in-a-mountain-array/)
+- [162. 寻找峰值](https://leetcode.cn/problems/find-peak-element/)
+- [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
+- [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)
+- [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
