@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 704. 二分查找
+
 func main() {
 	nums := []int{-1, 0, 3, 5, 9, 12}
 	target := 9
