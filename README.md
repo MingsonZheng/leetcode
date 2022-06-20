@@ -7,6 +7,7 @@
 - [005RecursionAndPartition](https://github.com/MingsonZheng/leetcode#005RecursionAndPartition)
 - [006Sort](https://github.com/MingsonZheng/leetcode#006Sort)
 - [007BinarySearch](https://github.com/MingsonZheng/leetcode#007BinarySearch)
+- [008HashTable](https://github.com/MingsonZheng/leetcode#008HashTable)
 
 ---
 
@@ -128,6 +129,28 @@
 - [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 - [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)
 - [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 008HashTable
+
+- [两数之和](https://leetcode.cn/problems/two-sum/)
+- [15. 三数之和](https://leetcode.cn/problems/3sum/)
+- [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
+- [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
+- [面试题 02.01. 移除重复节点](https://leetcode.cn/problems/remove-duplicate-node-lcci/)
+- [面试题 16.02. 单词频率](https://leetcode.cn/problems/words-frequency-lcci/)
+- [面试题 01.02. 判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci/)
+- [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+- [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/)
+- [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)
+- [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/)
+- [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
+- [1122. 数组的相对排序](https://leetcode.cn/problems/relative-sort-array/)
+- [706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/)
+- [146. LRU 缓存机制](https://leetcode.cn/problems/lru-cache/)
+- [面试题 16.21. 交换和](https://leetcode.cn/problems/sum-swap-lcci/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
