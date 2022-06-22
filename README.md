@@ -8,6 +8,7 @@
 - [006Sort](https://github.com/MingsonZheng/leetcode#006Sort)
 - [007BinarySearch](https://github.com/MingsonZheng/leetcode#007BinarySearch)
 - [008HashTable](https://github.com/MingsonZheng/leetcode#008HashTable)
+- [009BinaryTrees](https://github.com/MingsonZheng/leetcode#009BinaryTrees)
 
 ---
 
@@ -151,6 +152,35 @@
 - [706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/)
 - [146. LRU 缓存机制](https://leetcode.cn/problems/lru-cache/)
 - [面试题 16.21. 交换和](https://leetcode.cn/problems/sum-swap-lcci/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 009BinaryTrees
+
+- [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
+- [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
+- [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/)
+- [589. N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/)
+- [590. N 叉树的后序遍历](https://leetcode.cn/problems/n-ary-tree-postorder-traversal/)
+---
+- [剑指 Offer 32 - I. 从上到下打印二叉树](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
+- [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
+- [剑指 Offer 32 - III. 从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)
+- [429. N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/)
+- [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/)
+---
+- [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
+- [559. N 叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/)
+- [剑指 Offer 55 - II. 平衡二叉树](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/)
+- [617. 合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees/)
+- [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
+- [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/)
+- [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)
+---
+- [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+- [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/)
+- [面试题 04.06. 后继者](https://leetcode.cn/problems/successor-lcci/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
