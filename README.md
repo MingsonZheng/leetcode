@@ -9,6 +9,7 @@
 - [007BinarySearch](https://github.com/MingsonZheng/leetcode#007BinarySearch)
 - [008HashTable](https://github.com/MingsonZheng/leetcode#008HashTable)
 - [009BinaryTrees](https://github.com/MingsonZheng/leetcode#009BinaryTrees)
+- [010Heap](https://github.com/MingsonZheng/leetcode#010Heap)
 
 ---
 
@@ -198,6 +199,16 @@
 - [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)
 - [剑指 Offer 34. 二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
 - [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 010Heap
+
+- [23. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
+- [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
+- [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/)
+- [973. 最接近原点的 K 个点](https://leetcode.cn/problems/k-closest-points-to-origin/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
