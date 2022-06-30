@@ -10,6 +10,7 @@
 - [008HashTable](https://github.com/MingsonZheng/leetcode#008HashTable)
 - [009BinaryTrees](https://github.com/MingsonZheng/leetcode#009BinaryTrees)
 - [010Heap](https://github.com/MingsonZheng/leetcode#010Heap)
+- [011StringMatching](https://github.com/MingsonZheng/leetcode#011StringMatching)
 
 ---
 
@@ -79,6 +80,10 @@
 - [剑指 Offer 31. 栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
 - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
 - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+- [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
+- [面试题 03.06. 动物收容所](https://leetcode.cn/problems/animal-shelter-lcci/)
+- [剑指 Offer 59 - II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/)
+- [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
@@ -131,6 +136,11 @@
 - [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 - [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)
 - [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
+- [658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/)
+- [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
+- [81. 搜索旋转排序数组 II](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/)
+- [154. 寻找旋转排序数组中的最小值 II](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/)
+- [4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
@@ -209,6 +219,15 @@
 - [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
 - [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/)
 - [973. 最接近原点的 K 个点](https://leetcode.cn/problems/k-closest-points-to-origin/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 011StringMatching
+
+- [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)
+- [面试题 17.17. 多次搜索](https://leetcode.cn/problems/multi-search-lcci/)
+- [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
