@@ -11,6 +11,7 @@
 - [009BinaryTrees](https://github.com/MingsonZheng/leetcode#009BinaryTrees)
 - [010Heap](https://github.com/MingsonZheng/leetcode#010Heap)
 - [011StringMatching](https://github.com/MingsonZheng/leetcode#011StringMatching)
+- [012Backtrack](https://github.com/MingsonZheng/leetcode#012Backtrack)
 
 ---
 
@@ -80,6 +81,8 @@
 - [剑指 Offer 31. 栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
 - [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
 - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+
+以下选做，留给精力充沛的同学自刷
 - [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
 - [面试题 03.06. 动物收容所](https://leetcode.cn/problems/animal-shelter-lcci/)
 - [剑指 Offer 59 - II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/)
@@ -136,6 +139,8 @@
 - [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 - [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)
 - [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
+
+以下为选做，精力充沛的同学可以做一下：
 - [658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/)
 - [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
 - [81. 搜索旋转排序数组 II](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/)
@@ -169,18 +174,24 @@
 
 ## 009BinaryTrees
 
+### 题型1：二叉树前中后序遍历
+
 - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
 - [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
 - [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/)
 - [589. N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/)
 - [590. N 叉树的后序遍历](https://leetcode.cn/problems/n-ary-tree-postorder-traversal/)
----
+
+### 题型2：二叉树按层遍历
+
 - [剑指 Offer 32 - I. 从上到下打印二叉树](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
 - [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
 - [剑指 Offer 32 - III. 从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)
 - [429. N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/)
 - [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/)
----
+
+### 题型3：二叉树上的递归
+
 - [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
 - [559. N 叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/)
 - [剑指 Offer 55 - II. 平衡二叉树](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/)
@@ -188,24 +199,34 @@
 - [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
 - [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/)
 - [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)
----
+
+### 题型4：二叉查找树
+
 - [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 - [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/)
 - [面试题 04.06. 后继者](https://leetcode.cn/problems/successor-lcci/)
----
+
+### 题型5：LCA最近公共祖先
+
 - [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) 
 - [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) 
----
+
+### 题型6：二叉树转单、双、循环链表
+
 - [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)
 - [面试题 17.12. BiNode](https://leetcode.cn/problems/binode-lcci/)
 - [剑指 Offer 36. 二叉搜索树与双向链表](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)
 - [面试题 04.03. 特定深度节点链表](https://leetcode.cn/problems/list-of-depth-lcci/)
----
+
+### 题型7：按照遍历结果反向构建二叉树
+
 - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [889. 根据前序和后序遍历构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - [106. 从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
----
+
+### 题型8：二叉树上的最长路径和
+
 - [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)
 - [剑指 Offer 34. 二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
 - [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)
@@ -226,8 +247,29 @@
 ## 011StringMatching
 
 - [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)
+以下为选做题目：
 - [面试题 17.17. 多次搜索](https://leetcode.cn/problems/multi-search-lcci/)
 - [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 012Backtrack
+
+- [面试题 08.12. 八皇后](https://leetcode.cn/problems/eight-queens-lcci/)
+- [37. 解数独](https://leetcode.cn/problems/sudoku-solver/)
+- [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)
+- [77. 组合](https://leetcode.cn/problems/combinations/)
+- [78. 子集](https://leetcode.cn/problems/subsets/)
+- [90. 子集 II](https://leetcode.cn/problems/subsets-ii/)
+- [46. 全排列](https://leetcode.cn/problems/permutations/)
+- [47. 全排列 II](https://leetcode.cn/problems/permutations-ii/)
+- [39. 组合总和](https://leetcode.cn/problems/combination-sum/)
+- [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/)
+- [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii/)
+- [131. 分割回文串](https://leetcode.cn/problems/palindrome-partitioning/)
+- [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/)
+- [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
