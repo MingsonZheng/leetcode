@@ -44,6 +44,7 @@ func backtrack(uniqueNums, counts []int, k int, path []int) {
 		result = append(result, snapshot)
 		return
 	}
+	// 有两个2，第一遍循环放一个，第二遍循环放两个，保证不重复
 	for count := 0; count <= counts[k]; count++ {
 		for i := 0; i < count; i++ {
 			path = append(path, uniqueNums[k])
