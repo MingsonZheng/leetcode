@@ -20,6 +20,7 @@ func restoreIpAddresses(s string) []string {
 	return result
 }
 
+// k：字符串 s 第 k 位
 func backtrack(s string, k, step int, path []int) {
 	if k == len(s) && step == 4 {
 		sb := strings.Builder{}
@@ -37,24 +38,24 @@ func backtrack(s string, k, step int, path []int) {
 		return
 	}
 	val := 0
-	// 1 位数
+	// 1 位数，0 ~ 9，必然小于 255
 	if k < len(s) {
 		val = val*10 + int(s[k]-'0')
 		path = append(path, val)
 		backtrack(s, k+1, step+1, path)
 		path = path[:len(path)-1]
 	}
-	if s[k] == '0' {
+	if s[k] == '0' { // 前导 0 不行
 		return
 	}
-	// 2 位数
+	// 2 位数，0 ~ 99，必然小于 255
 	if k+1 < len(s) {
 		val = val*10 + int(s[k+1]-'0')
 		path = append(path, val)
 		backtrack(s, k+2, step+1, path)
 		path = path[:len(path)-1]
 	}
-	// 3 位数
+	// 3 位数，0 ~ 255，未必小于 255
 	if k+2 < len(s) {
 		val = val*10 + int(s[k+2]-'0')
 		if val <= 255 {

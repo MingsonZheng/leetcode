@@ -5,7 +5,7 @@ import "fmt"
 // 22. 括号生成
 
 func main() {
-	fmt.Println(generateParenthesis(3))
+	fmt.Println(generateParenthesis(3)) // 相当于 2n = 6 个元素填到 2n = 6 个格子里
 }
 
 var result []string
