@@ -12,6 +12,7 @@
 - [010堆](https://github.com/MingsonZheng/leetcode#010堆)
 - [011字符串匹配算法](https://github.com/MingsonZheng/leetcode#011字符串匹配算法)
 - [012回溯](https://github.com/MingsonZheng/leetcode#012回溯)
+- [013深度和广度优先搜索](https://github.com/MingsonZheng/leetcode#013深度和广度优先搜索)
 
 ---
 
@@ -277,3 +278,27 @@
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
+
+## 013深度和广度优先搜索
+
+- [剑指 Offer 13. 机器人的运动范围](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)（中等）DFS
+- [面试题 08.10. 颜色填充](https://leetcode.cn/problems/color-fill-lcci/)（简单）DFS
+- [面试题 04.01. 节点间通路](https://leetcode.cn/problems/route-between-nodes-lcci/)（中等）DFS，BFS 搜索
+- [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/)（中等）DFS 求连通分量
+- [面试题 16.19. 水域大小](https://leetcode.cn/problems/pond-sizes-lcci/)（中等） DFS 连通性
+- [207. 课程表](https://leetcode.cn/problems/course-schedule/)（中等）拓扑序列，看是否存在环，有两种算法 Kahn/DFS
+- [79. 单词搜索](https://leetcode.cn/problems/word-search/)（中等）DFS 的稍微升级
+- [1306. 跳跃游戏 III](https://leetcode.cn/problems/jump-game-iii/)（中等） DFS，看着不像，实际上是
+- [752. 打开转盘锁](https://leetcode.cn/problems/open-the-lock/)（中等）BFS
+
+以下为选做题目：
+
+- [面试题 17.22. 单词转换](https://leetcode.cn/problems/word-transformer-lcci/)（困难）流程是标准 DFS，但背景要抽象一下
+- [面试题 17.07. 婴儿名字](https://leetcode.cn/problems/baby-names-lcci/)（困难）关系是固定的，并查集或者 DFS 都能搞定！关键在于将数据转化成图结构，也就是建模烦！
+- [529. 扫雷游戏](https://leetcode.cn/problems/minesweeper/)（困难）
+- [127. 单词接龙](https://leetcode.cn/problems/word-ladder/)（困难）
+- [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)（困难）
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
