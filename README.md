@@ -13,6 +13,7 @@
 - [011字符串匹配算法](https://github.com/MingsonZheng/leetcode#011字符串匹配算法)
 - [012回溯](https://github.com/MingsonZheng/leetcode#012回溯)
 - [013深度和广度优先搜索](https://github.com/MingsonZheng/leetcode#013深度和广度优先搜索)
+- [014动态规划](https://github.com/MingsonZheng/leetcode#014动态规划)
 
 ---
 
@@ -298,6 +299,34 @@
 - [529. 扫雷游戏](https://leetcode.cn/problems/minesweeper/)（困难）
 - [127. 单词接龙](https://leetcode.cn/problems/word-ladder/)（困难）
 - [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)（困难）
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
+
+## 014动态规划
+
+### 背包
+
+- [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/)
+- [494. 目标和](https://leetcode.cn/problems/target-sum/)
+- [322. 零钱兑换 ](https://leetcode.cn/problems/coin-change/)
+- [518. 零钱兑换 II](https://leetcode.cn/problems/coin-change-2/)
+
+### 路径问题
+
+- [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/)
+- [剑指 Offer 47. 礼物的最大价值 ](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/)
+- [120. 三角形最小路径和](https://leetcode.cn/problems/triangle/)
+- [62. 不同路径](https://leetcode.cn/problems/unique-paths/)
+- [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/)
+
+### 打家劫舍 & 买卖股票
+
+- [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
+- [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii/)
+- [337. 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii/)  (树形DP)
+- [714. 买卖股票的最佳时机含手续](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+- [309. 最佳买卖股票时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
