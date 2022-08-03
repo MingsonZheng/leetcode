@@ -328,6 +328,24 @@
 - [714. 买卖股票的最佳时机含手续](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 - [309. 最佳买卖股票时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
+### 爬楼梯问题
+
+- [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)
+- [322. 零钱兑换](https://leetcode.cn/problems/coin-change/) 
+- [518. 零钱兑换 II](https://leetcode.cn/problems/coin-change-2/)
+- [剑指 Offer 14- I. 剪绳子](https://leetcode.cn/problems/jian-sheng-zi-lcof/)
+- [剑指 Offer 46. 把数字翻译成字符串](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
+- [139. 单词拆分](https://leetcode.cn/problems/word-break/)
+
+### 匹配问题
+
+- [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)
+- [72. 编辑距离](https://leetcode.cn/problems/edit-distance/) 
+
+### 其他
+
+- [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
+
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
 
