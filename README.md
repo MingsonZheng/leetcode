@@ -143,7 +143,7 @@
 - [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)（简单）二分答案
 - [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)（中等） 二维转一维，二分查找
 
-以下为选做，精力充沛的同学可以做一下：
+### 以下为选做，精力充沛的同学可以做一下：
 
 - [658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/)（中等）
 - [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)（中等）二分答案
@@ -252,7 +252,7 @@
 
 - [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)（中等） 标准Trie树
 
-以下为选做题目：
+### 以下为选做题目：
 
 - [面试题 17.17. 多次搜索](https://leetcode.cn/problems/multi-search-lcci/)（中等） 标准AC自动机，不过写AC自动机太复杂，Trie树搞定
 - [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/)（困难）
@@ -292,7 +292,7 @@
 - [1306. 跳跃游戏 III](https://leetcode.cn/problems/jump-game-iii/)（中等） DFS，看着不像，实际上是
 - [752. 打开转盘锁](https://leetcode.cn/problems/open-the-lock/)（中等）BFS
 
-以下为选做题目：
+### 以下为选做题目：
 
 - [面试题 17.22. 单词转换](https://leetcode.cn/problems/word-transformer-lcci/)（困难）流程是标准 DFS，但背景要抽象一下
 - [面试题 17.07. 婴儿名字](https://leetcode.cn/problems/baby-names-lcci/)（困难）关系是固定的，并查集或者 DFS 都能搞定！关键在于将数据转化成图结构，也就是建模烦！
