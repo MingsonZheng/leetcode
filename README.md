@@ -14,6 +14,7 @@
 - [012回溯](https://github.com/MingsonZheng/leetcode#012回溯)
 - [013深度和广度优先搜索](https://github.com/MingsonZheng/leetcode#013深度和广度优先搜索)
 - [014动态规划](https://github.com/MingsonZheng/leetcode#014动态规划)
+- [015技巧题](https://github.com/MingsonZheng/leetcode#015技巧题)
 
 ---
 
@@ -71,17 +72,17 @@
 
 ## 004栈和队列
 
-- [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)（简单）（已讲）
+- [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)（简单）
 - [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)（简单）
 - [面试题 03.05. 栈排序](https://leetcode.cn/problems/sort-of-stacks-lcci/)（中等）
 - [155. 最小栈](https://leetcode.cn/problems/min-stack/)（简单）
 - [面试题 03.01. 三合一](https://leetcode.cn/problems/three-in-one-lcci/)（简单） 
 - [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)（简单）
-- [面试题 16.26. 计算器](https://leetcode.cn/problems/calculator-lcci/)（中等）（已讲）
+- [面试题 16.26. 计算器](https://leetcode.cn/problems/calculator-lcci/)（中等）
 - [772. 基本计算器 III](https://leetcode.cn/problems/basic-calculator-iii/)（困难 力扣会员，比上一题多了括号）
 - [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)（简单）
 - [剑指 Offer 31. 栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)（中等）
-- [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)（中等） 单调栈 （已讲）
+- [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)（中等） 单调栈
 - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)（困难）单调栈
 
 ### 以下选做，留给精力充沛的同学自刷
@@ -349,3 +350,47 @@
 #### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
 ---
 
+## 015技巧题
+
+### 双指针
+
+- [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
+- [面试题 16.24. 数对和](https://leetcode.cn/problems/pairs-with-sum-lcci/)
+- [1. 两数之和](https://leetcode.cn/problems/two-sum/)
+- [15. 三数之和](https://leetcode.cn/problems/3sum/)
+- [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
+- [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)
+- [283. 移动零](https://leetcode.cn/problems/move-zeroes/) 已排序未排序指针
+- [面试题 16.06. 最小差](https://leetcode.cn/problems/smallest-difference-lcci/) 类似合并两个有序数组
+- [面试题 17.11. 单词距离](https://leetcode.cn/problems/find-closest-lcci/) 类似合并两个有序数组
+
+### 滑动窗口
+
+- [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+- [剑指 Offer 48. 最长不含重复字符的子字符串](https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
+- [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)
+- [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)
+
+### 前缀后缀统计
+
+- [53. 最大子序和](https://leetcode.cn/problems/maximum-subarray/)
+- [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+- [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
+- [面试题 05.03. 翻转数位](https://leetcode.cn/problems/reverse-bits-lcci/)
+- [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+
+### 位运算
+
+- [191. 位1的个数](https://leetcode.cn/problems/number-of-1-bits/)
+- [461. 汉明距离](https://leetcode.cn/problems/hamming-distance/)
+- [面试题 05.06. 整数转换](https://leetcode.cn/problems/convert-integer-lcci/)
+- [面试题 05.07. 配对交换](https://leetcode.cn/problems/exchange-lcci/)
+- [面试题 05.01. 插入](https://leetcode.cn/problems/insert-into-bits-lcci/)
+- [面试题 17.04. 消失的数字](https://leetcode.cn/problems/missing-number-lcci/)
+- [剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
+- [剑指 Offer 56 - II. 数组中数字出现的次数 II ](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)
+- [面试题 16.01. 交换数字](https://leetcode.cn/problems/swap-numbers-lcci/)
+- [231. 2 的幂](https://leetcode.cn/problems/power-of-two/)
+
+#### 🔝[返回目录](https://github.com/MingsonZheng/leetcode#leetcode-%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB%E9%A2%98%E8%A7%A3)
+---
