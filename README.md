@@ -377,6 +377,7 @@
 - [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
 - [面试题 05.03. 翻转数位](https://leetcode.cn/problems/reverse-bits-lcci/)
 - [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+- [53. 最大子序和](https://leetcode.cn/problems/maximum-subarray/)
 
 ### 位运算
 
