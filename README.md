@@ -373,7 +373,6 @@
 
 ### 前缀后缀统计
 
-- [53. 最大子序和](https://leetcode.cn/problems/maximum-subarray/)
 - [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
 - [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
 - [面试题 05.03. 翻转数位](https://leetcode.cn/problems/reverse-bits-lcci/)
