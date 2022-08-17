@@ -28,8 +28,8 @@ func maxSubArray(nums []int) int {
 	for i := len(sum) - 1; i >= 0; i-- {
 		if curMax < sum[i] {
 			curMax = sum[i]
-			max[i] = curMax
 		}
+		max[i] = curMax
 	}
 	result := math.MinInt32
 	for i := 0; i < len(nums); i++ {
